@@ -1,0 +1,140 @@
+/*
+Theme Name: April Lynn Designs
+Theme URI: http://www.blog.spoongraphics.co.uk
+Description: Wordpress Theme for April Lynn Desingns services and portfolio.
+Version: 1
+Author: Philip Rudy (Strings Engineered) & Jared Knetzer (Lalu Designs)
+Author URI: http://www.philiparudy.com
+*/
+
+#load {
+	background: url('images/ajax-loader.gif');
+	width: 200px;
+	height: 200px;
+}
+.footer-wrap p {
+  font-size: 11px;
+  font-weight: 200;
+  letter-spacing: -.2px; }
+ 
+.blog .page-wrapper #main-body .negative{
+	margin-top:0;
+}
+.single-post .page-wrapper #main-body .negative{
+	margin-top:0;
+}
+.sidebar_round {
+    border: 1px solid #eeeeee;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+	box-shadow:0 0 1px 0 rgba(0, 0, 0, 0.137);
+}
+.blogpagels{
+	font-size:13px;
+}
+.blog_entry {
+	margin-bottom: 2rem;
+}
+.blogpagels .entry-meta{
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.blogpagels p{
+	font-size:14px;
+}
+.blogpagels h3 a{
+	font-family: isabella;
+	color: #f1446f;
+	font-size: 50px;
+	line-height: 50px;
+	transition: all .3s ease;
+}
+.blogpagels h3 a:hover{
+	color:#0098aa;
+	transition: all .3s ease;
+}
+/*font-family: 'Petit Formal Script', cursive;*/
+.blogpagels .entry-meta a{
+	color:#0098aa;
+}
+.blogpagels .entry-meta a:hover{
+	color:#f1446f;
+}
+.border_blog{
+	border-top:1px dashed #DDD;
+}
+
+.sidebar_col_n h3.widget-title{
+	font-family: isabella;
+	color:#f1446f;
+	font-size:16px;
+	padding:0 0 10px 0;
+	font-size: 30px;
+	line-height: 30px;
+}
+.sidebar_round h3.widget-title{
+	font-family: isabella;
+	color:#f1446f;
+	font-size:16px;
+	padding:0 0 10px 0;
+	font-size: 30px;
+	line-height: 30px;
+}
+#searchform input{
+	border:1px solid #ddd;
+}
+#searchsubmit{
+	display:none;
+}
+.sidebar_col_n ul li a:before {
+    content: "+ ";
+}
+.sidebar_col_n ul li{
+	list-style:none;
+}
+.sidebar_col_n ul li a{
+	color:#0098aa;
+	font-size:14px;
+}
+.sidebar_col_n ul li a:hover{
+	color:#f1446f;
+}
+
+.welcome-note h3 {
+	font-family: isabella;
+	font-size: 50px;
+	line-height: 50px;
+	color: #f1446f;
+}
+
+.welcome-note h2 {
+	font-family: raleway-light;
+	font-size: 30px;
+	color: #515151;
+}
+
+.welcome-note .entry-meta{
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.welcome-note .entry-meta a{
+	color:#0098aa;
+}
+.welcome-note .entry-meta a:hover{
+	color:#f1446f;
+}
+
+.comments {
+	background: whitesmoke;
+	padding: 1rem;
+}
+.comments h3 {
+	font-family: isabella;
+	color: #f1446f;
+	text-transform: lowercase;
+}

@@ -1,0 +1,312 @@
+/*
+Theme Name: April Lynn Designs
+Theme URI: http://www.blog.spoongraphics.co.uk
+Description: Wordpress Theme for April Lynn Desingns services and portfolio.
+Version: 1
+Author: Philip Rudy (Strings Engineered) & Jared Knetzer (Lalu Designs)
+Author URI: http://www.philiparudy.com
+*/
+
+.page-wrapper .gallery .cat-wrap {
+    clear: both;
+}
+
+body p {
+	color: #454545 !important;
+}
+
+#load {
+	  background: url('images/ajax-loader.gif') no-repeat;
+	  width: 200px;
+	  height: 200px;
+	  padding-left: 25px;
+}
+
+ 
+.blog .page-wrapper #main-body .negative{
+	margin-top:0;
+}
+.single-post .page-wrapper #main-body .negative{
+	margin-top:0;
+}
+.sidebar_round {
+    border: 1px solid #eeeeee;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+	box-shadow:0 0 1px 0 rgba(0, 0, 0, 0.137);
+}
+.blogpagels{
+	font-size:13px;
+}
+
+.textwidget a img {
+	  width: 130px;
+	  display: table;
+	  margin: auto;
+	  padding: 10px;
+}
+.blog_entry {
+	margin-bottom: 2rem;
+}
+
+.blog_entry > img {
+	margin-bottom: 25px;
+}
+
+.fb-comments + h3 {
+	display: none;
+}
+.blogpagels .entry-meta{
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
+}
+.entry-meta span:first-child {
+	padding-left: 0 !important;
+}
+.entry-meta span:last-child {
+	padding-roght: 0 !important;
+	border-right: 0 !important;
+}
+.entry-meta span {
+	border-right: 1px dashed #dddddd;
+	font-size: 13px;
+	font-weight: 100;
+	flex: 1 0 auto;
+	-webkit-box-flex: 1 0 auto;      /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1 0 auto;         /* OLD - Firefox 19- */
+  width: 20%;               /* For old syntax, otherwise collapses. */
+  -webkit-flex: 1 0 auto;          /* Chrome */
+  -ms-flex: 1 0 auto;
+	text-align: center;
+}
+.blogpagels p{
+	font-size:14px;
+}
+.blogpagels h3 a{
+	font-family: isabella;
+	color: #f1446f;
+	font-size: 50px;
+	line-height: 40px;
+	transition: all .3s ease;
+	margin-bottom: 35px;
+}
+.blogpagels h3 a:hover{
+	color:#0098aa;
+	transition: all .3s ease;
+}
+/*font-family: 'Petit Formal Script', cursive;*/
+.blogpagels .entry-meta a{
+	color:#0098aa;
+}
+.blogpagels .entry-meta a:hover{
+	color:#f1446f;
+}
+.border_blog{
+	border-top:1px dashed #DDD;
+}
+
+.sidebar_col_n h3.widget-title{
+	font-family: isabella;
+	color:#f1446f;
+	font-size:16px;
+	padding:0 0 10px 0;
+	font-size: 30px;
+	line-height: 30px;
+}
+.sidebar_round h3.widget-title{
+	font-family: isabella;
+	color:#f1446f;
+	font-size:16px;
+	padding:0 0 10px 0;
+	font-size: 30px;
+	line-height: 30px;
+}
+#searchform input{
+	border:1px solid #ddd;
+}
+#searchsubmit{
+	display:none;
+}
+.sidebar_col_n ul li a:before {
+    content: "+ ";
+}
+.sidebar_col_n ul li{
+	list-style:none;
+}
+.sidebar_col_n ul li a{
+	color:#0098aa;
+	font-size:14px;
+}
+.sidebar_col_n ul li a:hover{
+	color:#f1446f;
+}
+
+.welcome-note h3 {
+		font-family: isabella;
+	  font-size: 50px;
+	  line-height: 40px;
+	  color: #f1446f;
+	  margin-bottom: 20px;
+}
+
+.welcome-note > img {
+	margin-bottom: 20px;
+}
+
+.welcome-note h2 {
+	font-family: raleway-light;
+	font-size: 30px;
+	color: #515151;
+}
+
+.welcome-note .entry-meta{
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
+    text-align: center;
+}
+
+.welcome-note .entry-meta a{
+	color:#0098aa;
+}
+.welcome-note .entry-meta a:hover{
+	color:#f1446f;
+}
+
+.comments {
+	background: whitesmoke;
+	padding: 1rem;
+}
+.comments h3 {
+	font-family: isabella;
+	color: #f1446f;
+	text-transform: lowercase;
+}
+
+
+/*===========================================*/
+.page-id-28 .page-wrapper .gallery .portfolios .portfolio-item h5 {
+    color: #0098aa;
+    font-family: raleway-light;
+    min-height: 50px;
+}
+.page-id-28 .page-wrapper .gallery #gallery-view li img{
+	width:200px;
+	height:200px;
+}
+.page-id-28 .small-block-grid-4 > li{}
+
+/*===========================================*/
+.page-id-30 .page-wrapper .gallery .portfolios .portfolio-item h5 {
+    color: #0098aa;
+    font-family: raleway-light;
+    min-height: 50px;
+}
+.page-id-30 .page-wrapper .gallery #gallery-view li img{
+	width:200px;
+	height:200px;
+}
+.page-wrapper header #header-wrap nav ul > li > a:hover{
+	/*font-size:40px !important;*/
+}
+.page-wrapper header #header-wrap nav ul > li > a{
+	letter-spacing:normal !important;
+}
+.page-wrapper #main-body #left-nav .circle-wrap .circle::before{
+	left:-152px !important;
+	top:-9px !important;
+}
+.banner_page_top {
+    background:#fff url("images/gold-2.jpg") repeat;
+	padding:5px;
+}
+.theme-light.slider-wrapper{
+	padding:0 !important;
+}
+.home-banner{
+	display:none;
+}
+
+#wpcf7-f5434-p18-o1 p span{
+    color: #f1446f;
+    font-family: Isabella;
+	font-size:45px;
+}
+#wpcf7-f5434-p18-o1 .wpcf7-form-control-wrap{
+	font-family:raleway-light;
+	}
+#wpcf7-f5434-p18-o1 span.wpcf7-list-item-label{
+	font-family:raleway-light;
+	font-size:14px;
+}
+#wpcf7-f5434-p18-o1 input,
+#wpcf7-f5434-p18-o1 textarea {
+    border: 1px solid #0098aa;
+}
+#wpcf7-f5434-p18-o1 .wpcf7-submit{
+	background: #ffffff none repeat scroll 0 0;
+	border: 1px solid #0098aa;
+	color: #f1446f;
+	cursor: pointer;
+	font-family: raleway-light;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.page-id-8 .page-wrapper hr{
+	background:none;
+}
+
+/* Smartphones */
+@media (max-width: 480px) { 
+	.page-id-28 .small-block-grid-4 > li{
+		width:100%;
+	}
+	.page-id-30 .small-block-grid-4 > li{
+		width:100%;
+	}
+	.page-id-28 .small-18{
+		width:360px;
+	}
+	.page-id-30 .small-18{
+		width:360px;
+	}
+}
+
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+	.page-id-28 .small-block-grid-4 > li{
+		width:50%;
+	}
+	.page-id-30 .small-block-grid-4 > li{
+		width:50%;
+	}
+	.page-id-28 .small-18{
+		width:481px;
+	}
+	.page-id-30 .small-18{
+		width:481px;
+	}
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) { ... }
+
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { ... }
+
+/* Large Display */
+@media (min-width: 1200px) { ... }
+

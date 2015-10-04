@@ -1,0 +1,19 @@
+Isabella Script
+----------------------------------------------------------------------------
+Isabella Script is handwritten stylish copperplate calligraphy fonts, combines from copperplate to contemporary typeface with a dancing baseline, classic and elegant touch.
+Isabella features 300+ glyphs and 118 alternate characters. including initial and terminal letters, alternates, ligatures and multiple language support.
+
+Files included: 
+- Isabella.otf 
+- Isabella.ttf
+- Web Font (eot, svg, woff)
+
+Can be used for various purposes.such as headings, signature, logos, wedding invitation, t-shirt, letterhead, signage, lable, news, posters, badges etc. 
+To enable the OpenType Stylistic alternates, you need a program that supports OpenType features such as Adobe Illustrator CS, Adobe Indesign & CorelDraw X6-X7.
+
+How to get access alternate glyphs from open type fonts: http://youtu.be/iptSFA7feQ0
+View all glyphs here: http://s30.postimg.org/gf6ck071d/Glyphs.jpg
+
+Need help?
+If you need help or advice, please contact me by e-mail "seniorsstudio@gmail.com"
+Thank you for your purchase!
