@@ -30,14 +30,23 @@ xmlhttp.open("GET","#" + currDiv,true);
 xmlhttp.send();
 }
 
+function removeClass(element, index, array){
+	element[index].classList.remove('active');
+}
 
 function loadPortfolioImg(e)
 {
+	
+	var gallery = document.getElementById('slicker');
 	var view = document.getElementById('portfolio-view');
+	var activeNow = gallery.getElementsByClassName('active');
+	for (var i = 0; i<=activeNow.length; i ++) {
+		activeNow[i].classList.remove('active');
+	}
+	e.className = e.className + "active";
 	var currDiv = e.getAttribute('id');
 	var currImg = e.innerHTML;
 	
-	console.log(currImg);
 	view.innerHTML = currImg;
 	
 	console.log(currDiv);

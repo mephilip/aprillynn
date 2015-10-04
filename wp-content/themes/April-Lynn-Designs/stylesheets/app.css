@@ -7499,6 +7499,9 @@ button:focus {
 #portfolio-single-page #close-item {
   display: none; }
 
+#ajax-view #slicker div.active {
+  border: 1px solid #0098aa;
+  padding: 5px !important; }
 #ajax-view.ajaxpad {
   display: block;
   margin: 1rem 0px;
@@ -7529,7 +7532,7 @@ button:focus {
   max-width: 700px; }
   #ajax-view .slider-wrap .grid-wrap .slick-slider div {
     cursor: pointer;
-    float: left; }
+    display: inline-block; }
   #ajax-view .slider-wrap .grid-wrap .slick-slider img {
     width: 95px;
     opacity: .4;

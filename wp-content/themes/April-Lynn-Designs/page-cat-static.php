@@ -106,7 +106,8 @@ if ( $query->have_posts() ) {
 				    echo  $category->slug . ' ';
 				} ?>" data-equalizer-watch>
 											
-											<h5>	<?php the_title(); ?> </h5>
+											<h5>	<?php if(get_the_category() == 'press') { ?><a href="<?php the_field('alt_link'); ?>"><?php the_title(); ?></a>
+											<?php } else {?><?php the_title(); ?><?php } ?></h5>
 											
 											<div id="portfolio-img" class="circle">
 											

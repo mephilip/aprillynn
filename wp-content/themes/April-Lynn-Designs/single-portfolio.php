@@ -27,6 +27,8 @@ if ( have_posts() ) {
 					<div class="grid-wrap" style="">
 						<div class='slick-slider' id="slicker" style="width: 400px;">
 							
+							<div id="photo" class="active" onclick="loadPortfolioImg(this);"><?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
+<img src="<?php echo $url; ?>" /></div>
 							
 							<?php if(get_field('photo') !=null){ ?>
 								<div id="photo" onclick="loadPortfolioImg(this);"><img src="<?php the_field('photo'); ?>" /></div>

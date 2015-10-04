@@ -1232,6 +1232,15 @@ button:focus {outline:0;}
 
 
 #ajax-view {
+	
+	#slicker {
+		div {
+			&.active {
+				border: 1px solid $secondary-color;
+				padding: 5px !important;
+			}
+		}
+	}
 		
 	&.ajaxpad {
 	  display: block;
@@ -1270,7 +1279,7 @@ button:focus {outline:0;}
 					.slick-slider {
 						div {
 							cursor: pointer;
-							float: left;
+							display: inline-block;
 						}
 						img {
 							  width: 95px;
